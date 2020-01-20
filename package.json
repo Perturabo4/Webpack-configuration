@@ -1,13 +1,8 @@
 {
-  "name": "wepack_configuration",
+  "name": "WEPACK_CONFIGURATION",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
-  },
+  "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/Perturabo4/Webpack-configuration.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Perturabo4/Webpack-configuration/issues"
   },
-  "homepage": "https://github.com/Perturabo4/Webpack-configuration#readme"
+  "homepage": "https://github.com/Perturabo4/Webpack-configuration#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
 }
