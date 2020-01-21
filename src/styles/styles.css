@@ -1,4 +1,4 @@
-@import "~normalize.css";
+@import "~normalize.css"; /* Подключение библиотеки с  node_modules*/
 @import "./roboto.css";
 
 body {
