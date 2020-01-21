@@ -2,7 +2,7 @@
   "name": "WEPACK_CONFIGURATION",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "private": true,
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
