@@ -1,3 +1,5 @@
+import * as $ from 'jquery';
+
 function createAnalytics() {
     let counter = 0;
 
@@ -5,11 +7,11 @@ function createAnalytics() {
 
     const listenet = () => counter ++;
 
-    document.addEventListener('click', listenet);
+    $(document).on('click', listenet);
 
     return {
         destroy() {
-            document.removeEventListener('click', listenet);
+            $(document).off('click', listenet);
             destoroyed = true;
         },
         getClicks() {
