@@ -2,9 +2,12 @@ import * as $ from 'jquery';
 import Post from '@models/Post';
 // import file from './assets/file';
 import car from './assets/car.jpg';
+import './babel.js';
 import csv from './assets/test2.csv';
 // import xml from './assets/data.xml';
 import './styles/styles.css';
+import './styles/less.less';
+import './styles/sass.scss';
 
 const post = new Post('Webpack', car) ; 
 

@@ -1,0 +1,13 @@
+$border: 1px solid red;
+
+.cart {
+    padding: 1rem;
+    border-right: 5px;
+    margin-top: 1rem;
+    border: $border;
+
+    h2 {
+        text-align: center;
+        color: darkred;
+    }
+}
